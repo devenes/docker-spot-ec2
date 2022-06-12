@@ -1,0 +1,11 @@
+instance_count       = 1                       # Number of instances to create  
+key_name             = "virginia"              # Define the keyname to use for SSH access
+instance_type        = "t2.micro"              # Define the instance type to use for the instance
+instance_ami         = "ami-02e136e904f3da870" # Define the AMI to use for the instances
+region               = "us-east-1"             # Define the region to use
+profile              = "default"               # Define the profile to use
+security_group       = "ec2-ecr-sec-group"     # Define the security group to use
+ec2_name             = "ec2-ecr-instance"      # Define the name of the EC2 instance
+ec2_user             = "ec2-user"              # Define the user to use for the EC2 instance
+iam_instance_profile = "ecr-instance-profile"  # Define the IAM instance profile name to use
+spot_price           = "0.0035"                # Define the spot price to use
